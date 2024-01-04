@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.linkedin-btn, .github-btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.linkedin-btn:hover, .github-btn:hover {
+    background-color: #0056b3;
+}
+/* ... (previous styles) ... */
+
+.section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container {
+    flex-basis: 40%; /* Adjust the width of the image container */
+    margin-right: 20px; /* Adjust the spacing between the image and content */
+}
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    border-radius: 8px; /* Add rounded corners for a modern look */
+}
+
+/* ... (remaining styles) ... */
+/* ... (previous styles) ... */
+
+body {
+    font-size: 30px; /* Set a base font size for the entire document */
+}
+
+h1 {
+    font-size: 5em; /* Adjust the heading font size */
+}
+
+h2 {
+    font-size: 1.5em; /* Adjust the subheading font size */
+}
+
+p, ul {
+    font-size: 1.2em; /* Adjust the paragraph and list font size */
+}
+
+/* ... (remaining styles) ... */
